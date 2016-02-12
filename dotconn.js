@@ -13,7 +13,7 @@ playground.addEventListener("click", function(){
     var rect = canvas.getBoundingClientRect();
     var x = event.clientX - rect.left;
     var y = event.clientY - rect.top;
-    console.log(x + "," + y)
+    console.log(x + "," + y);
 
     canvas.fillStyle = "#FFD1DC";
     canvas.strokeStyle = "#000000";
